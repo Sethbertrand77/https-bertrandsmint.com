@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bertrand's Mint</title>
+  <meta name="description" content="Bertrand's Mint — handcrafted products and projects." />
+  <link rel="stylesheet" href="/styles.css" />
+  <style>
+    :root{--bg:#fff;--text:#222;--accent:#0a74da}
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;line-height:1.5;margin:0;color:var(--text);background:var(--bg)}
+    header{padding:2rem 1rem;text-align:center;background:linear-gradient(180deg,#f7fbff,white)}
+    h1{margin:0;font-size:clamp(1.5rem,3vw,2.5rem)}
+    .lead{color:#555;margin-top:.5rem}
+    nav{margin-top:1rem}
+    nav a{color:var(--accent);text-decoration:none;margin:0 .5rem}
+    main{max-width:900px;margin:2rem auto;padding:0 1rem}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem}
+    .card{border:1px solid #eee;padding:1rem;border-radius:8px;background:white;box-shadow:0 1px 2px rgba(0,0,0,.03)}
+    footer{padding:2rem 1rem;text-align:center;color:#666;font-size:.9rem}
+    .cta{display:inline-block;margin-top:1rem;padding:.6rem 1rem;border-radius:6px;background:var(--accent);color:white;text-decoration:none}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Bertrand's Mint</h1>
+    <p class="lead">Handcrafted products, small projects, and things we love.</p>
+    <nav>
+      <a href="#products">Products</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero">
+      <p>Welcome to Bertrand's Mint. This is a simple static starter site — customize it with your content, images, and styles.</p>
+      <a class="cta" href="#products">Browse products</a>
+    </section>
+
+    <section id="products" style="margin-top:2rem">
+      <h2>Featured products</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>Product One</h3>
+          <p>Short description of product one. Materials, dimensions, or highlights.</p>
+        </article>
+        <article class="card">
+          <h3>Product Two</h3>
+          <p>Short description of product two. Simple, handcrafted, and unique.</p>
+        </article>
+        <article class="card">
+          <h3>Product Three</h3>
+          <p>Short description of product three. Add photos and pricing as needed.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" style="margin-top:2rem">
+      <h2>About</h2>
+      <p>Bertrand's Mint is a small creative studio focused on quality and detail. Use this repository to publish your site via GitHub Pages or other static hosts.</p>
+    </section>
+
+    <section id="contact" style="margin-top:2rem">
+      <h2>Contact</h2>
+      <p>Questions or custom orders? Email <a href="mailto:hello@bertrandsmint.com">hello@bertrandsmint.com</a> or open an issue in this repo.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Bertrand's Mint</p>
+    <p><a href="https://github.com/Sethbertrand77/https-bertrandsmint.com">Project on GitHub</a></p>
+  </footer>
+</body>
+</html>
